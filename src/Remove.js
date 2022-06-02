@@ -55,9 +55,10 @@ function editToDo(textFieldsLocal) {
             // Delete function
             trashIcon.addEventListener('mousedown', () => {
                 const storedItems = getStatus();
+                let str;
                 listItem.remove();
-                storedItems.splice(fieldId, 1);
-                localStorage.setItem('toDoList', JSON.stringify(storedItems));
+                str = storedItems.filter(storedItems => storedItems.index !== fieldId);
+                localStorage.setItem('toDoList', JSON.stringify(str));
                 sortToDo(fieldId);
                 showItems();
                 fieldId = undefined;
