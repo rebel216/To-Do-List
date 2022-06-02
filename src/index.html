@@ -7,34 +7,29 @@
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
             integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
             crossorigin="anonymous" />
-        <link rel="stylesheet" href="./style.css" />
         <title>To do list</title>
     </head>
 
     <body>
         <div class="container">
-            <div class="list">
-                <div class="container">
-                    <div class="">
+            <div class="main-list">
+                <div class="item-container">
+                    <div>
                         <div class="today-content white-height">
-                            <span>To Do List</span>
+                            <span class="heading">Today's To Do list</span>
                             <i class="fas fa-sync"></i>
                         </div>
-
-                        <div class="todoitem white-height">
-                            <div class="check-description">
-                                <div class="view">
-                                    <label class="label"></label>
-                                    <ul class="todo" id="todo"></ul>
-                                </div>
-                            </div>
-                        </div>
-
+                        <form class="add-new white-height">
+                            <input class="no-outline" maxlength="128" id="new-item" type="text"
+                                placeholder="Add to your list ..." />
+                            <i class="fas fa-level-down-alt"></i>
+                        </form>
+                        <div class="full-list"></div>
                     </div>
-
                 </div>
+                
             </div>
-            </div>
+        </div>
     </body>
 
 </html>

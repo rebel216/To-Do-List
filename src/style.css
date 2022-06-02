@@ -5,10 +5,10 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f1f2f5;
+  background-color: #91a9f0;
 }
 
-.list {
+.main-list {
   width: 40%;
   background-color: #fff;
   margin: 2rem auto;
@@ -16,13 +16,9 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
-.container {
-  padding: 1rem 1rem 0 1rem;
-}
-
 .today,
 .add-new,
-.todoitem {
+.todo-item {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -30,12 +26,12 @@ body {
   align-items: center;
 }
 
-.todoitem,
+.todo-item,
 .add-new {
   min-height: 66px !important;
 }
 
-.todoitem:last-of-type {
+.todo-item:last-of-type {
   border-bottom: 2px solid #fff;
 }
 
@@ -62,13 +58,24 @@ body {
 #clear-text {
   text-decoration: none;
   color: rgb(24, 24, 24);
+  padding: 0.5rem;
+}
+
+#clear-text:hover {
+  color: #36b0e9;
+  transform: scale(1.4);
+  transition: 0.4s;
 }
 
 #new-item {
   font-size: 1rem;
-  line-height: 1rem;
+  line-height: 3rem;
   border: none;
   width: 90%;
+}
+
+.no-outline {
+  padding: 0 1rem;
 }
 
 .no-outline:focus {
@@ -86,7 +93,7 @@ textarea {
   outline: none;
   border: none;
   resize: none;
-  overflow: auto;
+  overflow: hidden;
   width: 100%;
   line-height: 1.5rem;
   word-wrap: break-word;
@@ -97,4 +104,50 @@ textarea {
 
 .view {
   width: 100%;
+  margin: 0 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.fa-square,
+.fa-check {
+  cursor: pointer;
+  padding: 0.5rem 1rem 1rem 1rem;
+}
+
+.fa-level-down-alt {
+  transform: rotate(90deg);
+  position: absolute;
+  right: calc(30%);
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.fa-sync,
+.fa-ellipsis-v,
+.fa-trash-alt {
+  padding: 1rem;
+}
+
+.fa-sync:hover {
+  color: rgb(105, 223, 105);
+  transition: 0.4s;
+  transform: rotate(360deg);
+  cursor: pointer;
+}
+
+.fa-trash-alt:hover {
+  color: rgb(212, 58, 58);
+  transform: scale(1.25);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.heading {
+  padding-left: 1rem;
+  font-weight: 600;
+  font-size: 1.4rem;
 }
