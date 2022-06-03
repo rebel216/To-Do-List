@@ -55,13 +55,13 @@ body {
   text-align: center;
 }
 
-#clear-text {
+#clearTask {
   text-decoration: none;
-  color: rgb(24, 24, 24);
-  padding: 0.5rem;
+  color: rgb(13, 13, 13);
+  padding: 0.2rem;
 }
 
-#clear-text:hover {
+#clearTask:hover {
   color: #36b0e9;
   transform: scale(1.4);
   transition: 0.4s;

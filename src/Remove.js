@@ -82,21 +82,25 @@ function editToDo(textFieldsLocal) {
 }
 
 function clearCompleted() {
-    const btnClear = document.getElementById('clear-text');
+    const btnClear = document.getElementById('clearTask');
     btnClear.addEventListener('click', () => {
         const markedItems = getStatus();
+        let str;
+        let Id;
         for (let i = 0; i < markedItems.length; i += 1) {
             if (markedItems[i].completed === true) {
+                Id = markedItems[i].index;
                 getCurrent();
                 allDivs[i].remove();
-                markedItems.splice(i, 1);
-                localStorage.setItem('toDoList', JSON.stringify(markedItems));
+                str = markedItems.filter(markedItems => markedItems.index !== Id);
+                localStorage.setItem('toDoList', JSON.stringify(str));
                 getStatus();
                 sortToDo(i);
                 showItems();
                 i -= 1;
             }
         }
+       
     });
 }
 
