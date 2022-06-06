@@ -12,7 +12,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link]([https://rebel216.github.io/To-Do-List/](https://rebel216.github.io/To-Do-List/))
+[Live Demo Link](https://rebel216.github.io/To-Do-List/)
 
 
 
