@@ -12,7 +12,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]([https://livedemo.com](https://rebel216.github.io/To-Do-List/))
 
 
 ## Getting Started
@@ -23,27 +23,14 @@
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/rebel216)
-- Twitter: [@twitterhandle](https://twitter.com/rebel216)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/rebel216)
+- GitHub: [@rebel216](https://github.com/rebel216)
+- Twitter: [@rebel216](https://twitter.com/rebel216)
+- LinkedIn: [rebel216](https://linkedin.com/in/rebel216)
 
 
 ## 🤝 Contributing
