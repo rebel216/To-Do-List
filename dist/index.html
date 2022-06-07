@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous" />
+        <title>To do list</title>
+    <script defer src="main.js"></script></head>
+
+    <body>
+        <div class="container">
+            <div class="main-list">
+                <div class="item-container">
+                    <div>
+                        <div class="today-content white-height">
+                            <span class="heading">Today's To Do list</span>
+                            <i class="fas fa-sync"></i>
+                        </div>
+                        <form class="add-new white-height">
+                            <input class="no-outline" maxlength="128" id="new-item" type="text"
+                                placeholder="Add to your list ..." />
+                            <i class="fas fa-level-down-alt"></i>
+                        </form>
+                        <div class="full-list"></div>
+                    </div>
+                </div>
+                <div class="clear">
+                    <a href="#" title="clear all" id="clearTask">Clear all completed</a>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
