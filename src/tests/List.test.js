@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 import LocalStorageMock from '../__mocks__/List.js';
 
 describe('Local storage test', () => {

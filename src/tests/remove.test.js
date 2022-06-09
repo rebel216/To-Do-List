@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 
-import removeItem from '../Remove.js';
+import removeItem from '../Remove';
 
 jest.mock('../Remove');
 describe('Remove element from the DOM', () => {

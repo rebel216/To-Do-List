@@ -1,3 +1,6 @@
+/**
+ * @jest-environment jsdom
+ */
 import LocalStorageMock from '../__mocks__/List.js';
 import { check, completedItem } from '../__mocks__/completed.js';
 
