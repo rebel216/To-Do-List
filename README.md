@@ -2,8 +2,6 @@
 # To-Do-List
  To-Do list webPage
 
-
-
 ## Built With
 
 - Major languages
@@ -33,6 +31,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@rebel216](https://twitter.com/rebel216)
 - LinkedIn: [rebel216](https://linkedin.com/in/rebel216)
 
+👤 **Author2**
+
+- GitHub: [@kiboma2021](https://github.com/kiboma2021)
+- Twitter: [@BenOmayio](https://twitter.com/omayiobenj)
+- LinkedIn: [@BenOmayio](https://www.linkedin.com/in/ben-omayio-74622469/)
 
 ## 🤝 Contributing
 
