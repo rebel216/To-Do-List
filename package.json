@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "serve": "webpack serve",
-    "test": "jest",
+    "test": "jest --coverage",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
     "build": "webpack"
@@ -28,6 +28,10 @@
     "jest": "^28.1.1",
     "jest-environment-jsdom": "^28.1.1",
     "style-loader": "^3.3.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.1"
