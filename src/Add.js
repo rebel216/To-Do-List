@@ -21,7 +21,7 @@ function hitEnter() {
     });
 }
 
-function context() {
+function Outlay() {
     toDoDivsAll = document.querySelectorAll('.todo-item');
     numberIndex = toDoDivsAll.length;
     const toDoDiv = document.createElement('div');
@@ -48,7 +48,7 @@ function addNewItem() {
         if (itemText !== '') {
             newItem.value = '';
             hitEnter();
-            context();
+            Outlay();
             toDoText = document.querySelectorAll('.todo');
             const textArea = toDoText[numberIndex];
             textArea.innerText = itemText;
@@ -71,7 +71,7 @@ function addNewItem() {
 
 function displayStored() {
     for (let i = 0; i < toDoItems.length; i += 1) {
-        context();
+        Outlay();
         toDoText = document.querySelectorAll('.todo');
         toDoText[i].innerText = toDoItems[i].description;
         showItems();
@@ -81,4 +81,4 @@ function displayStored() {
     numberIndex = toDoItems.length;
 }
 
-export { addNewItem, context, displayStored };
+export { addNewItem, Outlay, displayStored };
